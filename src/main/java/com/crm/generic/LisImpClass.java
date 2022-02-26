@@ -9,8 +9,10 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class LisImpClass implements ITestListener {
+public class LisImpClass implements ITestListener 
+{
 	public void onTestFailure(ITestResult result) 
+	
 	{
 		String testName=result.getMethod().getMethodName();
 		System.out.println(testName+"======Execute======");

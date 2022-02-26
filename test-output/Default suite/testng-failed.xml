@@ -5,6 +5,7 @@
     <classes>
       <class name="com.crm.Comcast.ContactTest.ContactContactTest">
         <methods>
+          <include name="CreateOrganizationWithContactTest"/>
           <include name="conFigAM"/>
           <include name="conFigBM"/>
           <include name="createcontactTest"/>
